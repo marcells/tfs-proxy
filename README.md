@@ -11,7 +11,7 @@ Currently it was created as side-project for [node-build-monitor](https://github
 tfs-proxy is a standalone Java console application running the [Spark web framework](http://sparkjava.com/). On a request 
 the [Microsoft Visual Studio Team Foundation Server 2012 SDK for Java](https://www.microsoft.com/en-us/download/details.aspx?id=22616) is used to access the information of the Team Foundation Server.
 
-#### How to use it?
+### How to use it?
 
 1. Run tfs-proxy via Docker (see Run with Docker below) or build it with maven (see Dockerfile for the needed build commands)
 2. Make a web request to `http://localhost:4567/builds` with the following headers:
